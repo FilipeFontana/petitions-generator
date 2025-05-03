@@ -5,7 +5,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 from typing import Dict, List, Any
 
 # Configuração do modelo
-MODEL_ID = "gpt2"  # Substitua pelo modelo que você deseja usar
+MODEL_ID = "neuralmind/sabia-2-lawbr"  # Substitua pelo modelo que você deseja usar
 USER_DATA_PATH = "/runpod-volume/user-data"  # Onde os dados específicos do usuário serão armazenados
 
 def load_model():
